@@ -1,0 +1,382 @@
+:root {
+  --primary: #c70039;
+  --secondary: #141e46;
+  --white: #fdfcfa;
+  --pink: #ffe3e3;
+  --bluetext: #0d3d64;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;700&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+.frame {
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0 0 5px 1px rgba(177, 177, 177, 0.922);
+}
+
+/* navbar */
+
+.navbar {
+  background-color: var(--primary);
+  padding: 1rem 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 3;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-secondary-black {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary-black:hover {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.btn-icone .fa {
+  margin-top: 12px;
+  margin-left: -30px;
+}
+
+.profile-img {
+  border-radius: 99px;
+  width: 36px;
+  height: 36px;
+}
+
+.name-profile {
+  color: var(--white);
+  margin-top: 5px;
+}
+.btnSearch {
+  font-size: 13px;
+  color: #666;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.btnMasuk {
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnMasuk:hover {
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  background-color: #c70039;
+}
+.btnDaftar {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDaftar:hover {
+  background-color: #141e46;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navbarDiva {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+.navbarDiva:hover {
+  color: #141e46;
+  padding-top: 4px;
+  transition: padding 0.5s;
+  text-decoration: none;
+}
+
+.btnBuatSkrg {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+  background-color: #141e46;
+}
+
+.badgeModal {
+  background-color: #141e46;
+  font-weight: 500;
+}
+.btnModal {
+  background-color: #141e46;
+  color: white;
+}
+.btnModal a {
+  background-color: #141e46;
+  color: white;
+  text-decoration: none;
+}
+.btnJumlah {
+  border-color: #141e46;
+  border-width: 2px;
+  height: 5vh;
+}
+.cardQuantity {
+  border-color: #141e46;
+  border-width: 2px;
+  color: #141e46;
+  font-weight: bold;
+}
+
+/* detail produk */
+.sekatHeadDetail {
+  width: 73%;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.cardVar1 {
+  background-color: #f1f1f1;
+  border-radius: 0px;
+  border-color: #3faaff;
+  border-width: 3px;
+  box-shadow: 0px 0px 10px 3px rgba(126, 126, 126, 0.345);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.cardVar2 {
+  background-color: #f1f1f1;
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0px 0px 10px 3px rgba(126, 126, 126, 0.345);
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#var1 {
+  width: 105px;
+}
+#var2 {
+  width: 105px;
+}
+
+.header1Detail {
+  font-size: 20px;
+  font-weight: 600;
+}
+.header2Detail {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.warnaBadge {
+  background-color: var(--secondary);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btnDetail {
+  border-color: rgb(219, 219, 219);
+  border-width: 1px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: var(--bluetext);
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDetail:hover {
+  border-color: rgb(219, 219, 219);
+  border-width: 1px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: var(--bluetext);
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnJumlah {
+  background-color: #efefef;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnDetailSec {
+  background-color: var(--secondary);
+  color: white;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDetailSec:hover {
+  background-color: var(--secondary);
+  color: white;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDetailPrim {
+  background-color: var(--primary);
+  color: white;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btnDetailPrim:hover {
+  background-color: var(--primary);
+  color: white;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* toko */
+.btnToko {
+  border-color: var(--secondary);
+  border-width: 1.5px;
+  background-color: white;
+  color: var(--secondary);
+  font-size: 15px;
+}
+
+/* produk lain dari toko ini */
+.cardku {
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0px 0px 10px 3px rgba(126, 126, 126, 0.345);
+  margin-right: 5%;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 3%;
+}
+
+.teksDesain {
+  font-size: 20px;
+  color: #0d3d64;
+  font-weight: 500;
+}
+.teksHarga {
+  font-size: 18px;
+  color: #0d3d64;
+  font-weight: bold;
+}
+.teksPenjual {
+  font-size: 15px;
+  color: #0d3d64;
+  font-weight: 500;
+}
+.teksTerjual {
+  font-size: 12px;
+  color: #a3a4a5;
+  font-weight: 500;
+}
+
+/* produk lainnya */
+.btnku {
+  border-width: 1.5px;
+  border-color: #141e46;
+  color: #141e46;
+  font-weight: 500;
+  font-size: 25px;
+  border-radius: 0px;
+  width: 35%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btnku:hover {
+  border-width: 1.5px;
+  border-color: #141e46;
+  color: #141e46;
+  font-weight: 500;
+  font-size: 25px;
+  border-radius: 0px;
+  width: 35%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* footer */
+.tebal-hr {
+  opacity: 1;
+  color: #c70039;
+}
+
+.CompanyHelp {
+  font-weight: 500;
+}
+.CompanyHelp p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bayar-kirim img {
+  background-color: white;
+  border: black;
+  box-shadow: 1px 1px 2px rgb(152, 152, 152);
+  border-radius: 5px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon > span > a {
+  background-color: #141e46;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  float: right;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.btn-primary-pink {
+  background-color: var(--primary);
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-primary-pink:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-secondary-black {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary-black:hover {
+  color: white;
+  background-color: var(--secondary);
+}
+
+.btn-outline-secondary-black {
+  border: 1px solid var(--secondary);
+}
+
+.btn-outline-secondary-black:hover {
+  border: 1px solid var(--secondary);
+}
